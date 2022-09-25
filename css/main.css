@@ -137,15 +137,15 @@ body {
 .heder-tel:focus {
   color: var(--accent-color);
 }
-/* ============BUTTON=========== */
+/* ============presentation=========== */
 
 
 .btn-list{
   display: flex;
   justify-content: center;
   gap: 8px;
-  padding-top: 180px;
-  margin-bottom: 34px;
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
 
 
@@ -163,6 +163,7 @@ body {
   border-radius: 4px;
   background: #F5F4FA;
   color: var(--second-title-color);
+  padding: 6px 25px;
   
   
 }
@@ -174,8 +175,6 @@ body {
  
 }
 
-
-/* ============OUR WORKS=========== */
 
 .our-works-list{
   display: flex;
@@ -190,8 +189,7 @@ body {
 }
 
 .our-works-item-conteiner{
-padding-top: 20px;
-padding-bottom: 20px;
+padding: 20px 24px;
 background: #FFFFFF;
   border: 1px solid #EEEEEE;
 }
@@ -242,7 +240,12 @@ background: #FFFFFF;
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-top: 20px;
+  margin-bottom: 9px;
 
+}
+
+.footer-item {
+  margin-bottom: 9px;
 }
 
 .footer-mail,
@@ -251,7 +254,6 @@ background: #FFFFFF;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-
 }
 
 .footer-mail:hover,

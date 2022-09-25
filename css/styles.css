@@ -42,9 +42,6 @@ img {
   text-decoration: none;
 }
 
-/* .section{
-  padding: 94px 15px;
-} */
 
 .conteiner {
   width: 1200px;
@@ -54,7 +51,7 @@ img {
   margin: 0 auto;
 }
 .secnion{
-  padding: 94px 15px;
+  padding: 94px;
 }
 
 /* ==================heder=============== */
@@ -135,9 +132,12 @@ gap: 50px;
 }
 
 .hero-container{
-padding: 200px 252px 280px 252px;
+padding-top: 200px;
+padding-bottom: 280px;
 display: flex;
 flex-direction: column;
+display: flex;
+  align-items: center;
 }
 
 
@@ -151,6 +151,7 @@ flex-direction: column;
   color: #ffffff;
   max-width: 696px;
   margin-bottom: 30px;
+ 
   
 }
 
@@ -159,8 +160,8 @@ flex-direction: column;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -204,9 +205,9 @@ flex-direction: column;
 }
 /* =================section-d============= */
 
-/* .section-d{
-  padding: 94px 15px;
-} */
+.section-d{
+padding-top: 0;
+}
 .section-d-list{
   display: flex;
   gap: 30px;
@@ -301,13 +302,16 @@ flex-direction: column;
   
 }
 
+.footer-item{
+margin-bottom: 9px;
+}
+
 .footer-mail,
 .footer-tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
- 
+  color: rgba(255, 255, 255, 0.6); 
 }
 
 .footer-mail:hover,
